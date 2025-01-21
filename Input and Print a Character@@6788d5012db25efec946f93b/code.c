@@ -4,7 +4,7 @@ char* welcome() {
     char* res = "You entered: ";
     char toAdd;
     scanf("%c",toAdd);
-    res += toAdd +  '\n';
+    res += toAdd;
     return res;
 }
 
