@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 int main() {
     char* name = malloc(sizeof(char)*1000);
     int age;
