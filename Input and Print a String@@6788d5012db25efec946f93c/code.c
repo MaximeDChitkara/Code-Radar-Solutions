@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char* w= malloc(sizeof(char)*100);
+    char* w;
     scanf("%c",&w);
     printf("You entered: %s",w);
     return 0;
