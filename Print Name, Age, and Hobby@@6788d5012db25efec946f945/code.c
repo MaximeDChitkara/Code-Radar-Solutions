@@ -3,7 +3,7 @@
 int main() {
     char* name = malloc(sizeof(char)*1000);
     int age;
-    char* hobby = malloc(sizeof(char)*1000);
+    char* hobby = malloc(sizeof(char)*100);
     scanf("%s",name);
     scanf("%i",age);
     scanf("%s",hobby);
