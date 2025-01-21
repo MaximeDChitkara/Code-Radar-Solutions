@@ -1,14 +1,7 @@
 #include <stdio.h>
-
-char* welcome() {
-    char* res;
-    char toAdd;
-    scanf("%c",&toAdd);
-    res = "You entered: " + toAdd;
-    return res;
-}
-
 int main() {
-    printf("%s", welcome());
+    char c;
+    scanf("%c",c);
+    printf("You entered: %c",c)
     return 0;
 }
