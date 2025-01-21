@@ -3,9 +3,9 @@
 char* welcome() {
     char* res;
     char toAdd;
-    scanf("%c",toAdd);
+    scanf("%c",&toAdd);
     res = "You entered: " + toAdd;
-    return res;
+    return *res;
 }
 
 int main() {
