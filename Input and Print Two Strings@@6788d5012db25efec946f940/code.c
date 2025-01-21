@@ -4,6 +4,6 @@ int main() {
     char* oui;
     scanf("%s",&jspfreremesnomsdevariablessonttroplongsjepense);
     scanf("%s",&oui);
-    printf("You entered: %c and %c", jspfreremesnomsdevariablessonttroplongsjepense,oui);
+    printf("You entered: %s and %s", jspfreremesnomsdevariablessonttroplongsjepense,oui);
     return 0;
 }
