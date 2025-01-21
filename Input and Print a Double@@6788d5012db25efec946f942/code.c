@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    double stupeflip;
-    scanf("%d",&stupeflip);
-    printf("You entered: %.4d",stupeflip);
+    float stupeflip;
+    scanf("%f",&stupeflip);
+    printf("You entered: %.4f",stupeflip);
     return 0;
 }
