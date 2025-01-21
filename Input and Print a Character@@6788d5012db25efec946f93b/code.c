@@ -5,6 +5,7 @@ char* welcome() {
     char toAdd;
     scanf("%c",toAdd);
     res += toAdd +  '\n';
+    return res;
 }
 
 int main() {
