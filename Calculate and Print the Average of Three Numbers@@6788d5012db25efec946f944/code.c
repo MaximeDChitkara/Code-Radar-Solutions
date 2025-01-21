@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    int b;
-    int JMLP;
+    float a;
+    float b;
+    float JMLP;
     scanf("%i",&a);
     scanf("%i",&b);
     scanf("%i",&JMLP);
