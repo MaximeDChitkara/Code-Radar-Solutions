@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 char* welcome() {
-    char* res = "You entered: ";
+    char* res;
     char toAdd;
     scanf("%c",toAdd);
-    res += toAdd;
+    res = "You entered: "+toAdd;
     return res;
 }
 
