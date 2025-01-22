@@ -4,7 +4,7 @@ int main() {
     temp = 1 << 31;
     rep = 32;
     scanf("%i",&a);
-    while(!(a&1) && rep !=0)
+    while(!(a&1) && rep !=32)
     {
         ++rep;
         a <<= 1;
