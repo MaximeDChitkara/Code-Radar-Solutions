@@ -7,7 +7,9 @@ int main() {
     scanf("%i",&a);
     while(!(a & temp) && rep != 32)
     {
-        
+        ++rep;
+        a >>= 1;
     }
+    printf("%i", rep);
     return 0;
 }
