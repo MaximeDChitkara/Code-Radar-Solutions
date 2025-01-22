@@ -2,7 +2,7 @@
 
 int main(){
     int a, temp;
-    a =~ -a;
+    a =~ a;
     printf("%i",a);
     return 0;
 }
