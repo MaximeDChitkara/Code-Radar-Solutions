@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(int argc, char** argv) {
-   int a = (int)*argv[1];
-   int b = (int)*argv[2];
+   int a = strtol(argv[1], NULL, 10);
+   int b = strtol(argv[2], NULL, 10);
     a > b ? printf("True") : printf("False");
     return 0;
 }
