@@ -8,5 +8,6 @@ int main() {
     scanf("%i",&n);
     int c = ~(1 << n);
     a &= !c;
+    printf("%i", a);
     return 0;
 }
