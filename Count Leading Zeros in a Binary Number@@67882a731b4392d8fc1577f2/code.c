@@ -2,7 +2,7 @@
 int main() {
     int a, rep, temp;
     temp = 1 << 31;
-    rep = 32;
+    rep = 0;
     scanf("%i",&a);
     while(!(a& temp) && rep !=32)
     {
