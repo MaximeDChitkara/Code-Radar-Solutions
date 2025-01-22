@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int a, temp;
+    int a;
     scanf("%i",&a);
     a =~ a;
     printf("%i",a);
