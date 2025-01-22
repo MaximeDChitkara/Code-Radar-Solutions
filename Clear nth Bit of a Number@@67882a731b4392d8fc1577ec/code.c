@@ -4,7 +4,8 @@ int main() {
     int a;
     int n;
     scanf("%i %i", &a, &n);
-    (a >> n & 1) = 0;
+    int c = (1 << n);
+    a &= c;
     printf("%i", a);
     return 0;
 }
