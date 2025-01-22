@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
+    int a;
     scanf("%i", &a);
-    b = 1;
-    a &= b;
-    char* rep = (a == 1) ? "Set" : "Not Set";
-    printf(rep);
+    (a &= 1) == 1 ? "Set" : "Not Set";
     return 0;
 }
