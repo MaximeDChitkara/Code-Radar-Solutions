@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main(int argc, char** argv) {
-   long a = argv[1];
-   long b = argv[2];
+int main() {
+   int a;
+   int b;
+   scanf("%i",&a);
+   scanf("%i",&b);
     a > b ? printf("True") : printf("False");
     return 0;
 }
