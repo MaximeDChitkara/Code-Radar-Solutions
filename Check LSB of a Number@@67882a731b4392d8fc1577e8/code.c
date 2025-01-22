@@ -5,6 +5,7 @@ int main() {
     scanf("%i",&a);
     b = 1;
     a &= b;
-    (a == 1) ? printf("Set") : printf("Not set");
+    char* rep = (a == 1) ? "Set" : "Not set";
+    printf(rep);
     return 0;
 }
