@@ -3,7 +3,7 @@
 int main()
 {
     int n;
-    scanf("%i",n);
+    scanf("%i",&n);
     if(n == 0) printf("0");
     else{
     int started = 0;
