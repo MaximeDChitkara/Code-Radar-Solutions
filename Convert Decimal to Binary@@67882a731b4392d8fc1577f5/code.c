@@ -1,21 +1,10 @@
 #include <stdio.h>
 
-char* convertToBinary(int num)
+int main()
 {
-    int mask = 1<<31;
-    int foundOne = 0;
-
-    for(int i = 31; i >= 0; --i)
-    {
-        if(num & mask)
-        {
-            foundOne = 1;
-            printf("1");
-        }
-    }
-}
-
-int main() {
-    printf("%s", welcome());
+    int n;
+    scanf("%i",&n);
+    for(int i = 31; i >=; --i 0)
+    printf("%d", (n>>1)&1);
     return 0;
 }
