@@ -2,13 +2,7 @@
 
 char* isPrime(int a)
 {
-    char* rep;
-    int haschanged = 0;
-    for(int i = 2; i < a;++i)
-    {
-        (a % i) == 0 ? return "Not Prime" :haschanged++;
-    }
-    return  haschanged > 0 ? "Not Prime" : "Prime";
+    return "oui";
 }
 
 int main() {
