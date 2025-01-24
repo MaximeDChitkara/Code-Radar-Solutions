@@ -3,10 +3,11 @@
 char* isPrime(int a)
 {
     int i = 2;
-    for(i ; i < &a; ++i)
+    for(i ; i < a; ++i)
     {
         return "oui";
     }
+    return "non";
 
 }
 
