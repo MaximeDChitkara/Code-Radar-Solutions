@@ -6,7 +6,7 @@ char* isPrime(int a)
     int haschanged = 0;
     for(int i = 2; i < a;++i)
     {
-        (a % i) == 0 ? haschanged++ : rep = rep;
+        (a % i) == 0 ? return "Not Prime" : rep = rep;
     }
     return  haschanged > 0 ? "Not Prime" : "Prime";
 }
