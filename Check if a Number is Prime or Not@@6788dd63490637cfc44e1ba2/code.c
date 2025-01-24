@@ -2,12 +2,11 @@
 
 char* isPrime(int a)
 {
-    a < 2 ? return "Not Prime";
+    a < 2 ? return "Not Prime" :((
     for(int i ; i < a; i)
     {
         a % i == 0 ? return "Not Prime" : ++i;
-    }
-    return "Prime";
+    }));
 
 }
 
