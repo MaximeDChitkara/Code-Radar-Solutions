@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    printf("%s", welcome());
+    int a;
+    scanf("%i",&a);
+    printf("%s", a >= 60 ? "Eligible" : "Not Eligible");
     return 0;
 }
