@@ -2,7 +2,12 @@
 
 char* isPrime(int a)
 {
-    return "oui";
+    int i = 2;
+    for(i ; i < &a; ++i)
+    {
+        return "oui";
+    }
+
 }
 
 int main() {
