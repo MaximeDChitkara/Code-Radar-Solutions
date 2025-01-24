@@ -2,7 +2,7 @@
 
 char* isPrime(int a)
 {
-    a < 2 ? return "Not Prime" : (
+    return a < 2 ? "Not Prime" : (
         ({
             int i = 2, isNotPrime = 0;
             for(; i<a && isNotPrime ; ++i)
