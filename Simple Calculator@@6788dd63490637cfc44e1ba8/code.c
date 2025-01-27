@@ -4,7 +4,10 @@ int main() {
     int a,b;
     char c;
     scanf("%i %i %c", &a, &b, &c);
-    printf("%s", c == '+' ? a+b : c == '-' ? a-b : c == '*' ? a*b : c == '/' 
-    ? b == 0 ? "error" : a/b);
+    printf(c == '/' && b == 0 ? "error" : "%d",
+    c == '+' ? a+b :
+    c == '-' ? a-b :
+    c == '*' ? a*b :
+    c == '/' ? a/b : 0);
     return 0;
 }
