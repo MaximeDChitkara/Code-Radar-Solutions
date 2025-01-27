@@ -4,9 +4,9 @@
 int main() {
     int a;
     scanf("%i", &a);
-    printf("%s", a == 1 ? "January" : a == 2 ? "February" : a == 3 ? "March" : a == 4 
-    ? "April" : a == 5 ? "May" : a == 6 ? "June" : a == 7 ? "July" : a == 8 ?
-    "August" : a == 9 ? "September" : a == 10 ?
-     "October" : a == 11 ? "November" : "December");
+    printf("%i", a == 1 ? 31 : a == 2 ? 28 : a == 3 ? 31 : a == 4 
+    ? 30 : a == 5 ? 31 : a == 6 ? 30 : a == 7 ? 31 : a == 8 ?
+     31 : a == 9 ? 30 : a == 10 ?
+     31 : a == 11 ? 30 : 31);
     return 0;
 }
