@@ -4,7 +4,7 @@ int main() {
     int a,b;
     char c;
     scanf("%i %i %c", &a, &b, &c);
-    printf(c == '/' && b == 0 ? '0' : "%d",
+    printf(c == '/' && b == 0 ? "error" : "%d",
     c == '+' ? a+b :
     c == '-' ? a-b :
     c == '*' ? a*b :
