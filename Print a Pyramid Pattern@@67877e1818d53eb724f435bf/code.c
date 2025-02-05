@@ -9,12 +9,12 @@ int main() {
         {
             printf(' ');
         }
-        printf("*");
+        printf('*');
         for(int j = 0; j < n / i;++j)
         {
-            printf(" ");
+            printf(' ');
         }
-        printf("\n")
+        printf("\n");
     }
     return 0;
 }
