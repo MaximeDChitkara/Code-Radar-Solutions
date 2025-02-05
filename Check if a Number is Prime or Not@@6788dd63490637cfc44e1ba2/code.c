@@ -6,7 +6,8 @@ char* isPrime(int a)
     return a < 2 ? "Not Prime" : (
         ({
             int i = 2, isNotPrime = 0;
-            for(; i<=sqrt(a) && !isNotPrime ; ++i)
+            int s = sqrt((double)a);
+            for(; i<=s && !isNotPrime ; ++i)
                 isNotPrime = (a % i == 0);
             isNotPrime ? "Not Prime" : "Prime";
         }));
