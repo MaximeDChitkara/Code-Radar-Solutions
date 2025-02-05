@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
-char* isPrime(int a)
+char* isPrime(double a)
 {
     return a < 2 ? "Not Prime" : (
         ({
-            int i = 2, isNotPrime = 0;
-            int s = sqrt((double)a);
+            double i = 2, isNotPrime = 0;
+            double s = sqrt(a);
             for(; i<=s && !isNotPrime ; ++i)
                 isNotPrime = (a % i == 0);
             isNotPrime ? "Not Prime" : "Prime";
@@ -15,8 +15,8 @@ char* isPrime(int a)
 }
 
 int main() {
-    int a;
-    scanf("%i", &a);
+    double a;
+    scanf("%lf", &a);
     printf("%s", isPrime(a));
     return 0;
 }
