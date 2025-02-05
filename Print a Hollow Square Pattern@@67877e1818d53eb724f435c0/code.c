@@ -9,11 +9,15 @@ int main() {
     }
     for(int i = 0; i < n-2;++i)
     {
-        printf("*");
-        for(int j = 0; j < n-1;++j)
+        printf("\n*");
+        for(int j = 0; j < n-2;++j)
         {
             printf(" ");
         }
+        printf("*");
+    }
+    for(int i = 0; i < n; ++i)
+    {
         printf("*");
     }
     return 0;
