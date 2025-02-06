@@ -7,10 +7,10 @@ int main() {
     for(int i = 0; i < n; ++i)
     {
         for(int j = 0; j < n-a;++j)
-        pritnf(" ");
+        printf(" ");
         for(int j = 0; j < a; ++j)
-        printf("*");       
+        printf("*");
+        ++a;       
     }
-
     return 0;
 }
