@@ -4,15 +4,16 @@ int main()
 {
         int n;
         scanf("%i",&n);
-        int cpt = n;
-        for(int i = 0 ; i < n ; ++i)
+        int cpt = 0;
+        for(int i = 0; i <= n; ++i)
         {
-            cpt = n;
-                for(int j = 0; j <= i; ++j)
-                        {
-                            printf("%i ",cpt);
-                            --cpt;
-                        }
-                printf("\n");
+            cpt = 1;
+            for(int j = i; j > 0; --j)
+            {
+                printf("%i ",cpt);
+                ++cpt;
+            }
+            printf("\n");
         }
+        return 0;
 }
