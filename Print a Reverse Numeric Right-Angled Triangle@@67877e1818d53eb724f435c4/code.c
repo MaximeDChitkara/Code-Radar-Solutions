@@ -5,10 +5,10 @@ int main()
         int n;
         scanf("%i",&n);
         int cpt = 0;
-        for(int i = 0; i <= n; ++i)
+        for(int i = n; i >0 n; --i)
         {
             cpt = 1;
-            for(int j = i; j > 0; --j)
+            for(int j = 0; j < i; ++j)
             {
                 printf("%i ",cpt);
                 ++cpt;
