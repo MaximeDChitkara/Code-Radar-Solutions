@@ -10,7 +10,7 @@ int main()
             cpt = 1;
                 for(int j = 0; j <= i; ++j)
                         {
-                            printf("%i",cpt);
+                            printf("%i ",cpt);
                             ++cpt;
                         }
                 printf("\n");
