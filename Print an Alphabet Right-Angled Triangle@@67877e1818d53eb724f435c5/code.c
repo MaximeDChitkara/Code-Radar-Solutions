@@ -12,6 +12,8 @@ int main()
                         {
                             printf("%c ",cpt);
                             ++cpt;
+                            if(cpt > 'Z')
+                            cpt = 'A';
                         }
                 printf("\n");
         }
