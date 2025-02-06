@@ -11,9 +11,10 @@ int main() {
         {
             printf(" ");
         }
-        for(int o = 0; o <2* i-1;++o)
+        for(int o = 0; o < i-1;++o)
         {
             printf("%i", cpt);
+            ++cpt;
         }
         printf("\n");
     }
