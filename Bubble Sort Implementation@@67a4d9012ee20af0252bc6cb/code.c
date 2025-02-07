@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // Fonction de tri à bulles
 void bubbleSort(int arr[], int n) {
@@ -28,13 +29,21 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    int arr[n];
+    // Allocation dynamique du tableau
+    int *arr = (int*) malloc(n * sizeof(int));
+    if (arr == NULL) {
+        return 1; // Erreur d'allocation mémoire
+    }
+
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
     bubbleSort(arr, n);
     printArray(arr, n);
+
+    // Libération de la mémoire
+    free(arr);
 
     return 0;
 }
