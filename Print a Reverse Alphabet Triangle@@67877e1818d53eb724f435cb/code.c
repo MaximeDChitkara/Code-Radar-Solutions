@@ -5,10 +5,10 @@ int main() {
     scanf("%i",&n);
     for(int i = 0; i < n; ++n)
     {
-        int a = 'A';
+        char a = 'A';
         for(int j = 0; j < i; ++j)
         {
-            printf("%c ", (char)a);
+            printf("%c ", a);
             ++a;
             if(a > 'Z')
             a = 'A';
