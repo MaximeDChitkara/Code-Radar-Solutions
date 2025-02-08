@@ -4,9 +4,8 @@ int isPrime(double a)
 {
     return a < 2 ? 0 : (
         ({
-            double i = 2, isNotPrime = 0;
-            double s = sqrt(a);
-            for(; i<=s && !isNotPrime ; ++i)
+            int i = 2, isNotPrime = 0;
+            for(; i<=a/2 && !isNotPrime ; ++i)
                 isNotPrime = (a % i == 0);
             isNotPrime ? 0 : 1;
         }));
