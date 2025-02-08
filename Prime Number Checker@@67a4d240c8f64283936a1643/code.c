@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int isPrime(double a)
+int isPrime(int a)
 {
     return a < 2 ? 0 : (
         ({
