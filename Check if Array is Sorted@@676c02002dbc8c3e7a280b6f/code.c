@@ -15,10 +15,6 @@ int main() {
         }
     }
     isSorted == 1 ? printf("Sorted\n") : printf("Not Sorted\n");
-    for (int i = 0; i < N; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
 
     return 0;
 }
