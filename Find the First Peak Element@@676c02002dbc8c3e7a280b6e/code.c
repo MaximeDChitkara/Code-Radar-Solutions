@@ -2,8 +2,9 @@
 
 int main() {
     int n;
-    scanf("%i %i", &n, &a);
+    scanf("%i", &n);
     int a[n];
+    scanf("%i", &a);
     if(n <= 1){printf("-1");return 0;}
     if(n == 2){ printf("%i",a[0] > a[1] ? a[0] : a[1]);return 0;}
     for(int i = 1; i < n-2; ++i)
