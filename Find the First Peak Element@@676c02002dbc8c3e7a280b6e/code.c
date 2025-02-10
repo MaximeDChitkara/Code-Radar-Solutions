@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    int a;
+    int a[n];
     scanf("%i %i", &n, &a);
     if(n <= 1) return -1;
     if(n == 2) return a[0] > a[1] ? a[0] : a[1];
