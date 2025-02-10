@@ -14,6 +14,6 @@ int main() {
         return 0;
         }
     }
-    printf("%i",a[n-1] > a[n-2] ? a[n-1] : -1;)
+    printf("%i",a[n-1] > a[n-2] ? a[n-1] : -1);
     return 0;
 }
