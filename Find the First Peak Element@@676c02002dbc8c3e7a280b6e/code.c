@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    size_t n;
+    int n;
     int a;
     scanf("%i %i", &n, &a);
     int avant = -1;
