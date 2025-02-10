@@ -9,7 +9,7 @@ int main() {
 }
     if(n <= 1){printf("-1");return 0;}
     if(n == 2){ printf("%i",a[0] > a[1] ? a[0] : a[1]);return 0;}
-    for(int i = 1; i < n-2; ++i)
+    for(int i = 1; i < n-1; ++i)
     {
         if(a[i-1] < a[i] && a[i+1] < a[i])
         { 
