@@ -11,7 +11,7 @@ int main() {
     int maxi = a[0];int dmaxi = -1;
     for(int i = 0; i < n; ++i)
     {
-        if(a[i] >= maxi)
+        if(a[i] > maxi)
         {
             dmaxi = maxi;
             maxi = a[i];
