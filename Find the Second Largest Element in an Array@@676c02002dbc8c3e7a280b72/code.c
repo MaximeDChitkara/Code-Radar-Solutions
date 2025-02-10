@@ -22,6 +22,7 @@ if(n <= 1)
             maxi = a[i];
         }
     }
+    if(maxi == dmaxi){printf("-1");return 0;}
     printf("%i",dmaxi);
     return 0;
 }
