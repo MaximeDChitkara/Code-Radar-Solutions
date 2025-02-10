@@ -8,7 +8,12 @@ int main() {
     for(int i = 0; i < n; i++) {
     scanf("%i", &a[i]);
 }
-    int maxi = a[0];int dmaxi = -1;
+if(n <= 1)
+{
+    printf("-1");
+    return 0;
+}
+    int maxi = a[0];int dmaxi = a[1];
     for(int i = 0; i < n; ++i)
     {
         if(a[i] > maxi)
