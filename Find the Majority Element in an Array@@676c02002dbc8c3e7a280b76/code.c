@@ -13,7 +13,7 @@ int main() {
     {
         p[a[i]]++;
         if(p[a[i]] > n/2)
-        {printf("%i", p[a[i]]); return 0;}
+        {printf("%i", a[i]); return 0;}
     }
     printf("-1");
     return 0;
