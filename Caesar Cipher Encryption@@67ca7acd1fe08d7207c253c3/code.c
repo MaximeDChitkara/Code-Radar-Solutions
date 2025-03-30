@@ -6,11 +6,11 @@ void caesarCipher(char* message, int shift, char* encrypted)
     {
         if(message[i] <= 'Z' && message[i] >= 'A')
         {
-            encrypted[i] = message[i] + shift > 'Z' ? message[i] + shift - 'A' : message[i] + shift;
+            encrypted[i] = 'A' + (message[i] - 'A' + shift) % 26;
         }
         else if(message[i] <= 'z' && message[i] >= 'a')
         {
-            encrypted[i] = message[i] + shift > 'z' ? message[i] + shift - 'a' : message[i] + shift;
+            encrypted[i] = 'a' + (message[i] - 'a' + shift) % 26;
         }
         else {
             encrypted[i] = message[i];
