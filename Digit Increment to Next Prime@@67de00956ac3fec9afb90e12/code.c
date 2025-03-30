@@ -6,7 +6,7 @@ int nextPrimeDigit(int n)
     if(n == 6 || 7) return 7;
     if(n == 0 || 8 || 9) return 2;
 }
-int incrementToPrimeDigits(int n)
+int incrementToPrimeDigits(int N)
 {
     int newNumber = 0;
     int place = 1;
