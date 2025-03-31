@@ -6,7 +6,11 @@ int factorial(int n)
 
 void factorialRange(int start, int end)
 {
-    if(start < 0) return;
+    if(start < 0 || start > end)
+    { 
+        printf("Invalid range")
+        return;
+    }
     for(int i = start; i <= end; ++i)
     printf("%i\n",factorial(i));
 }
