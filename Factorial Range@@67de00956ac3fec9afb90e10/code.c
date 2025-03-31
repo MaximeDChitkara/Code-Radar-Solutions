@@ -6,7 +6,7 @@ int factorial(int n)
 
 void factorialRange(int start, int end)
 {
-    if(start < 0) return 1;
+    if(start < 0) return;
     for(int i = start; i <= end; ++i)
     printf("%i\n",factorial(i));
 }
