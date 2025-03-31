@@ -1,6 +1,4 @@
-// Your code here...
-
-void trackPlayerRanks(int ranked[], int player[], int result[], int n, int m) {
+void trackPlayerRanks(int ranked[], int n, int player[], int m, int result[]) {
     int dense_rank[200000];
     int rank = 1;
     dense_rank[0] = rank;
