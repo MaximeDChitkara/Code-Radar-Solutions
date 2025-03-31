@@ -12,7 +12,7 @@ int nextPrimeDigit(int n) {
 int incrementToPrimeDigits(int N) {
     int newNumber = 0;
     int place = 1;
-    if(N == 0) N = 9;
+    if(N == 0) N = 9; //Handle case for N = 0
     while (N > 0) {
         int digit = N % 10;
         int newDigit = nextPrimeDigit(digit);
