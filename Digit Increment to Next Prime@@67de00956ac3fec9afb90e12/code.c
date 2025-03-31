@@ -3,8 +3,8 @@
 int nextPrimeDigit(int n) {
     if (n == 1 || n == 2) return 2;
     if (n == 3) return 3;
-    if (n == 4 || n == 5) return 5;
-    if (n == 6 || n == 7) return 7;
+    if (n == 4 ) return 5;
+    if (n == 6 || n == 5) return 7;
     if (n == 0 || n == 8 || n == 9) return 2;
     return 2;
 }
