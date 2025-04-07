@@ -1,4 +1,4 @@
-void deflationBalloons(int air[], int n) {
+void deflateBalloons(int air[], int n) {
     while (1) {
         int count = 0;
         int min_air = 1e9;
