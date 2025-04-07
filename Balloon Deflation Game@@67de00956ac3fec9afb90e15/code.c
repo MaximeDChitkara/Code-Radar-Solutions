@@ -4,7 +4,7 @@ void deflateBalloons(int air[], int n) {
         int min_air = 1e9;
 
         for (int i = 0; i < n; i++) {
-            if (air[i] > 0) {
+            if (air[i] >= 0) {
                 count++;
                 if (air[i] < min_air) {
                     min_air = air[i];
