@@ -1,29 +1,29 @@
-void deflateBalloons(int air[], int n) {
-    int count = n;
-
+void deflationGame(int air[], int n) {
     while (1) {
-        int min = -1;
+        int count = 0;
+        int min_air = 1e9;
 
-        
+        // Compter les ballons encore gonflés et chercher le minimum
         for (int i = 0; i < n; i++) {
-            if (air[i] > 0 && (min == -1 || air[i] < min)) {
-                min = air[i];
+            if (air[i] > 0) {
+                count++;
+                if (air[i] < min_air) {
+                    min_air = air[i];
+                }
             }
         }
 
-        
-        if (min == -1) {
+        if (count == 0) {
             break;
         }
 
-        int inflated = 0;
+        printf("%d\n", count);
+
+        // Déflater tous les ballons actifs
         for (int i = 0; i < n; i++) {
             if (air[i] > 0) {
-                inflated++;
-                air[i] -= min;
+                air[i] -= min_air;
             }
         }
-
-        printf("%d\n", inflated);
     }
 }
