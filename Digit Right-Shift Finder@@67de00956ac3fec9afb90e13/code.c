@@ -12,5 +12,5 @@ int digitRightShift(int n)
         n /= 10;
     }
     lastDigit = n;
-    return temp + lastDigit;
+    return lastDigit * acc + temp;
 }
