@@ -1,16 +1,15 @@
 int digitRightShift(int n)
 {
-    int temp = 0;
-    int lastDigit = 0;
-    int acc = 1;
-    while(n > 9)
-    {
-        temp += n % 10;
-        temp *= acc;
+    int lastDigit = n % 10;
+    int rest = n / 10;
 
+    int acc = 1;
+    int temp = rest;
+    while(temp > 0)
+    {
         acc *= 10;
-        n /= 10;
+        temp /= 10;
     }
-    lastDigit = n;
-    return lastDigit * acc + temp;
+
+    return lastDigit * acc + rest;
 }
